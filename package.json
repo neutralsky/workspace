@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "npx playwright install && npx playwright install-deps"
+    "postinstall": "node postinstall.js"
 
   },
   "keywords": [],
